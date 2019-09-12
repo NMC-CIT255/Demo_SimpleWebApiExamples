@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace WebApiLibrary
 {
+    /// <summary>
+    /// static helper class for API applications
+    /// </summary>
     public static class ApiHelper
     {
         public static HttpClient ApiClient { get; set; }
